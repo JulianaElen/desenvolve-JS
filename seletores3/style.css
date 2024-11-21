@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#containerPrincipal {
+    margin: 30px;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#descricaoTarefa {
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: rgb(202, 147, 80);
+}
+
+#adicionarTarefa {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+#btnAdicionar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    background-color: rgb(248, 204, 150);
+    border-color: rgb(202, 147, 80);
+}
+
+#btnAdicionar:hover {
+    background-color: rgb(231, 167, 87);
+}
+
+#listaTarefas input {
+    margin-right: 10px;
+}
+
+.tarefa .concluida {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.tarefa .nao-concluida {
+    color: #000;
+}
