@@ -1,0 +1,142 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z2FsJUMzJUExeGlhfGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#containerPrincipal {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-top: 120px; 
+}
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#form {
+    position: fixed; 
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: rgba(214, 187, 211, 0.8); 
+    width: 100%;
+    max-width: 1000px;
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 10; 
+    margin-top: 0; /* Sem margens adicionais, já que é fixado */
+    margin-top: 2px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 600px;
+    height: 20px;
+    padding: 15px;
+    border: 2px solid #a173a5;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #37163b;
+    background-color: #dec0f0;
+    resize: vertical;
+    outline: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#novoPost {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+button#postar {
+    background-color: #c147c5;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 50px;
+    border: 2px solid #c147c5;
+}
+
+button#postar:hover {
+    background-color: #b1289a;
+}
+
+#posts {
+    margin-top: 100px; 
+}
+
+#listaPosts {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listaPosts li {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.postHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.postContent {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.postImage img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.likeButton {
+    background-color: #e92ed9;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.likeButton:hover {
+    background-color: #b1289a;
+}
+
+.likesCount {
+    margin-left: 10px;
+    font-size: 14px;
+}
